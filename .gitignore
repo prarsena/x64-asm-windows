@@ -1,0 +1,42 @@
+# Build output (regenerate with .\build.ps1 <name>)
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+
+# Assembler / linker by-products
+*.lst
+*.map
+*.pdb
+*.ilk
+*.exp
+
+# Debugger files
+.gdb_history
+*.gdbinit
+core
+*.stackdump
+
+# Local scratch output
+*.log
+*.tmp
+output*.txt
+
+# Editors and IDEs
+.vscode/
+.vs/
+.idea/
+*.swp
+*~
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Machine-specific data: never commit serial numbers, UUIDs or full system dumps
+sysinfo-*.txt
+systeminfo*.txt
+*.sysdump
